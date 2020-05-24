@@ -9,7 +9,9 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
-
+body {
+    overflow-x: hidden;
+}
 header {
     position: absolute;
     left: 0;
@@ -422,19 +424,60 @@ header p{
 .man {
     position: absolute;
     width: 531px;
-    height: 730px;
+    height: auto;
     left: 866px;
     top: 3368px;
-    /* background: url('/img/man.png');
-    background-size: cover;
-    box-shadow: 10px 49px 80px #D8D8F4;
-} */
-
+    
+}
+   
 .man-underlay {
     position: absolute;
     width: 1030px;
     height: 1030px;
     left: 821px;
     top: 3260px;
+    background: rgba(245, 245, 255, 0.8);
+    border-radius: 50%;
+}
+
+.list-left {
+    position: absolute;
+    left: 244px;
+    top: 4039px;
+    width: 540px;
+    height: 600px;
+    background-color: grey;
+}
+
+.list-right {
+    position: absolute;
+    left: 818px;
+    top: 4098.16px;
+    width: 540px;
+    height: 600px;
+    background-color: grey;
+}
+
+.box {
+    display: flex;
+    width: 540px;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px #F5F5FF;
+    border-radius: 23px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 34.62px;
+    padding-right: 40px;
+    margin-bottom: 12px;
     
+}
+
+.box p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;   
+    color: #402B2B;
 }
